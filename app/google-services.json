@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187778992579",
+    "project_id": "mechat-93fce",
+    "storage_bucket": "mechat-93fce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187778992579:android:15e544c31b85bc40169576",
+        "android_client_info": {
+          "package_name": "com.thoen.mechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu8g9I8mMByEO9MbbtjWK_rEzoaRg-HJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
