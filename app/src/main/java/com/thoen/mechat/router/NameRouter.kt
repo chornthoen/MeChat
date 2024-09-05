@@ -23,3 +23,7 @@ object Setting : NameRouter {
 object Navigation : NameRouter {
     override val route = "Navigation"
 }
+
+object ChatDetail : NameRouter {
+    override val route = "ChatDetail"
+}

@@ -7,6 +7,7 @@ import androidx.navigation.compose.rememberNavController
 import com.google.firebase.auth.FirebaseAuth
 import com.thoen.mechat.feafure.authen.signin.SignInScreen
 import com.thoen.mechat.feafure.authen.signup.SignUpScreen
+import com.thoen.mechat.feafure.chats.ChatDetailScreen
 import com.thoen.mechat.feafure.chats.ChatScreen
 import com.thoen.mechat.feafure.navigation.NavigationScreen
 import com.thoen.mechat.feafure.settings.SettingScreen
@@ -35,7 +36,9 @@ fun AppRouter() {
             composable(Navigation.route) {
                 NavigationScreen(navController)
             }
-
+            composable(ChatDetail.route) {
+                ChatDetailScreen(navController)
+            }
         }
     )
 }
